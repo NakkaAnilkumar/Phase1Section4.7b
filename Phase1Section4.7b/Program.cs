@@ -11,6 +11,7 @@ namespace Phase1Section4._7b
         static void Main(string[] args)
         {
             runApp();
+            Console.ReadLine();
         }
 
         public static void runApp()
@@ -34,7 +35,7 @@ namespace Phase1Section4._7b
                 Console.WriteLine(n.Data);
                 n = list.getNext();
             }
-            Console.ReadLine();
+            
         }
     }
 
